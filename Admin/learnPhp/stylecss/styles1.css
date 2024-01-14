@@ -1,0 +1,81 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: sans-serif;
+}
+section{
+    height: 150vh;
+}
+.indexpage{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.container{
+    margin-top: 3em;
+    box-shadow: 0px 0px 10px 2px #bbb, 
+                0px 0px 10px 2px #fff;
+    background-color: white;
+    width: 60%;
+    
+    height: 600px;
+    border-radius: 0px;
+    animation: bannerAnimation 1s alternate infinite;
+}
+@keyframes bannerAnimation {
+    from{ transform: translateX(-10px)}
+}
+.container ,label{
+    font-weight: 500;
+}
+.title{
+    text-align: center;
+    background-color: darkcyan;
+    padding: 20px 0px;
+    border-radius: 0px;
+}
+.title span{
+    font-weight: 800;
+    font-size: 35px;
+}
+span{
+    text-shadow: 0px 2px 1px rgb(180, 180, 180);
+}
+.submit{
+    float: right;
+}
+.navbar{
+    position: sticky;
+    top:0px;
+    background-color: #282A35 !important;
+    padding: 0px;
+    z-index: 1;
+}
+.navbar-nav li a{
+    color: white !important;
+    padding: 15px 20px !important;
+    font-size: 17px;
+    font-weight: bold;
+    font-family:sans-serif;
+    letter-spacing: 0.1rem;
+}
+.navbar-nav li a:hover{
+    background-color: rgb(4, 170, 109);
+    transition: 0.2s;
+}
+label{
+    padding: 0px 10px;
+}
+.navbar-brand{
+    cursor:unset;
+    padding: 13px;
+    margin-top: -4px;
+    margin-left: -11px;
+    margin-right: 0px;
+    background-color: rgb(26, 26, 26);
+    color: rgb(231, 172, 24) !important;
+    font-weight: bolder;
+}
+.modal-header{
+    background-color: rgb(4, 170, 109)!important;
+}
